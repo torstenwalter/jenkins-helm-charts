@@ -4,7 +4,7 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: jenkins
-          image: jenkins/jenkins:2.277.2-jdk11
+          image: jenkins/jenkins:2.277.3-jdk11
         - name: k8s-sidecar
           image: kiwigrid/k8s-sidecar:0.1.275
         - name: inbound-agent
@@ -17,12 +17,12 @@ entries:
         - name: Jenkins
           url: https://www.jenkins.io/
     apiVersion: v2
-    appVersion: 2.277.2
-    created: "2021-04-16T15:50:03.176826634Z"
+    appVersion: 2.277.3
+    created: "2021-04-20T21:49:56.022177556Z"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
-    digest: 929693020bbb19538835a567b059e5f099d981356d9328f552aa49546e9c8aec
+    digest: 47f8d3bf18b0bbe24cbad108e3ab3fbfeb6c354a602f497bd7c071f1faee500d
     home: https://jenkins.io/
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
     maintainers:
@@ -43,8 +43,8 @@ entries:
     - https://github.com/maorfr/kube-tasks
     - https://github.com/jenkinsci/configuration-as-code-plugin
     urls:
-    - https://github.com/torstenwalter/jenkins-helm-charts/releases/download/jenkins-3.3.6/jenkins-3.3.6.tgz
-    version: 3.3.6
+    - https://github.com/torstenwalter/jenkins-helm-charts/releases/download/jenkins-3.3.8/jenkins-3.3.8.tgz
+    version: 3.3.8
   - annotations:
       artifacthub.io/images: |
         - name: jenkins
@@ -9837,4 +9837,4 @@ entries:
     urls:
     - https://charts.jenkins.io/jenkins-0.1.0.tgz
     version: 0.1.0
-generated: "2021-04-16T15:50:03.18164603Z"
+generated: "2021-04-20T21:49:56.027216162Z"
